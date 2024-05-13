@@ -13,3 +13,10 @@
 |  |  |  |
 |--|--|--|
 |**No**| **Fitur** | **Detail** |
+| 1 | Membuat Direktori | Membuat direktori baru  ***mkdir*** |
+| 2 | Melihat Direktori | Melihat daftar direktori dengan perintah  ***dir*** |
+| 3 | Lihat File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
+| 4 | Hapus File/Folder | Menghapus file dari sebuah direktori dengan perintah ***rm -i*** dan menghapus sebuah folder dengan perintah ***rm -r***|
+| 5 | Copy File | Menyalin file dengan perintah ***cp*** |
+| 6 | Move File | Memeindahkan file dengan perintah ***mv*** |
+| 7 | Read File | Membaca isi file dengan perintah ***cat*** |
