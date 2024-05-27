@@ -7,9 +7,9 @@ echo "Daftar menu"
 echo "================================"
 echo "1. Membuat direktori"
 echo "2. Lihat direktori dan file"
-echo "3. Buat file"
-echo "4. Lihat detail file"
-echo "5. Hapus file"
+echo "3. Download repository github"
+echo "4. Cek konektivitas"
+echo "5. Hapus repository github"
 echo "6. Hapus folder"
 echo "7. Copy file"
 echo "8. Move file"
@@ -34,24 +34,43 @@ dir
 ;;
 3)
 echo "================================"
-echo "Membuat file baru"
-echo -n "Masukkan nama file :"
-read buatfile
-touch $buatfile
+echo "Download repository github"
+echo -n "Masukkan link github : "
+read link
+echo "Pilih direktori : "
+echo "1. Direktori ini"
+echo "2. Pilih direktori lain"
+echo -n "==> "
+read pildir
+case $pildir in
+1)
+git clone $link
+;;
+2)
+echo -n  "Masukkan nama direktori : "
+read dirclone
+git clone $link $dirclone
+;;
+*)
+echo "Pilihan tidak valid"
+;;
+esac
 ;;
 4)
 echo "================================"
-echo "Melihat detail file"
-echo -n "Masukkan nama file : "
-read namafile
-ls -l $namafile
+echo "Cek konektivitas"
+echo -n "Masukkan server : "
+read server
+echo -n "Masukkan jumlah paket yang ingin dikirim : "
+read package
+ping -c $package $server
 ;;
 5)
 echo "================================"
-echo "Menghapus file"
-echo -n "Masukkan nama file : "
-read hapusfile
-rm $hapusfile
+echo "Menghapus repository githun"
+echo -n "Masukkan nama repository : "
+read hapusrepo
+rm -rf $hapusrepo
 ;;
 6)
 echo "================================"
