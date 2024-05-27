@@ -1,4 +1,4 @@
-# Data Diri
+![image](https://github.com/sukinnamz/UAS-SISTEMOPERASI/assets/96225741/0d96a1c3-77f1-4260-916e-e3a50807f0f7)# Data Diri
 
 |  |  |
 |--|--|
@@ -14,9 +14,12 @@
 |--|--|--|
 |**No**| **Fitur** | **Detail** |
 | 1 | Membuat Direktori | Membuat direktori baru  ***mkdir*** |
-| 2 | Melihat Direktori | Melihat daftar direktori dengan perintah  ***dir*** |
-| 3 | Lihat File | Melihat daftar isi sebuah direktori dengan perintah ***ls -l*** |
-| 4 | Hapus File/Folder | Menghapus file dari sebuah direktori dengan perintah ***rm -i*** dan menghapus sebuah folder dengan perintah ***rm -r***|
-| 5 | Copy File | Menyalin file dengan perintah ***cp*** |
-| 6 | Move File | Memeindahkan file dengan perintah ***mv*** |
-| 7 | Read File | Membaca isi file dengan perintah ***cat*** |
+| 2 | Melihat Direktori dan file | Melihat daftar direktori dan file dengan perintah  ***dir*** |
+| 3 | Download repository github | Clone repository github untuk ditempatkan di lokal  ***git clone*** |
+| 4 | Cek konektivitas | Memeriksa koneksi ke alamat url atau IP komputer
+***ping*** |
+| 5 | Hapus repository github | Menghapus repository lokal ***rm -rf*** |
+| 6 | Hapus folder | Menghapus folder atau dorektori ***rm*** |
+| 7 | Copy folder | Menyalin file dan ditempatkan di direktori tujuan ***cp*** |
+| 8 |Move file | Memindah file dan ditempatkan di direktori tujuan ***mv*** |
+| 9 | Read File | Membaca isi file dengan perintah ***cat*** |
